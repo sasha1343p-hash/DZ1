@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Мини-анкета</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <main class="card">
+      <h1>Мини-анкета</h1>
+      <p id="lead" class="lead">Загружаем вопросы…</p>
+      <form id="survey" hidden></form>
+      <p id="status" class="status" role="status"></p>
+      <section id="thanks" class="thanks" hidden>
+        <h2>Спасибо!</h2>
+        <p>Ответы отправлены и сохранены в памяти сервера.</p>
+      </section>
+    </main>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
